@@ -1,0 +1,342 @@
+{
+	"info": {
+		"_postman_id": "aefc008e-46d9-46d4-82d4-b17720615aff",
+		"name": "demo123",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24495802"
+	},
+	"item": [
+		{
+			"name": "Account",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessTokenUrl",
+							"value": "https://login.salesforce.com/services/oauth2/token",
+							"type": "string"
+						},
+						{
+							"key": "client_authentication",
+							"value": "body",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "0F6C1CEDD6A6B4B669E7E8BF741CBBB6765F933D5ECA5C4A62D6226CD9AE6B9A\n ",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "pTz0kppyIH0bAF9grcZ86Jl2",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "hemalatha13@gmail.com",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "password_credentials",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "3MVG9VMBZCsTL9hl3t3sFyRbQ.izqEyheReXyvO_.BWEUQMphj6W0p4bPwVu_CNZD5hn_LtMTGXwoHrGgFgEh\n ",
+							"type": "string"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://vtechpvtltd4-dev-ed.develop.my.salesforce.com/",
+							"type": "string"
+						},
+						{
+							"key": "tokenName",
+							"value": "sf to postman",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\": \"dd\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://vamritech38-dev-ed.my.salesforce.com/services/data/v60.0/sobjects/Account",
+					"protocol": "https",
+					"host": [
+						"vamritech38-dev-ed",
+						"my",
+						"salesforce",
+						"com"
+					],
+					"path": [
+						"services",
+						"data",
+						"v60.0",
+						"sobjects",
+						"Account"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "to retrieve the record",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://vamritech38-dev-ed.my.salesforce.com/services/data/v60.0/sobjects/Account/001J100000AASeTIAX",
+					"protocol": "https",
+					"host": [
+						"vamritech38-dev-ed",
+						"my",
+						"salesforce",
+						"com"
+					],
+					"path": [
+						"services",
+						"data",
+						"v60.0",
+						"sobjects",
+						"Account",
+						"001J100000AASeTIAX"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "removing the record",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://vamritech38-dev-ed.my.salesforce.com/services/data/v60.0/sobjects/Account/001J100000AASeTIAX",
+					"protocol": "https",
+					"host": [
+						"vamritech38-dev-ed",
+						"my",
+						"salesforce",
+						"com"
+					],
+					"path": [
+						"services",
+						"data",
+						"v60.0",
+						"sobjects",
+						"Account",
+						"001J100000AASeTIAX"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessTokenUrl",
+							"value": "https://login.salesforce.com/services/oauth2/token",
+							"type": "string"
+						},
+						{
+							"key": "client_authentication",
+							"value": "body",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "0F6C1CEDD6A6B4B669E7E8BF741CBBB6765F933D5ECA5C4A62D6226CD9AE6B9A\n ",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "pTz0kppyIH0bAF9grcZ86Jl2",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "hemalatha13@gmail.com",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "password_credentials",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "3MVG9VMBZCsTL9hl3t3sFyRbQ.izqEyheReXyvO_.BWEUQMphj6W0p4bPwVu_CNZD5hn_LtMTGXwoHrGgFgEh\n ",
+							"type": "string"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://vtechpvtltd4-dev-ed.develop.my.salesforce.com/",
+							"type": "string"
+						},
+						{
+							"key": "tokenName",
+							"value": "sf to postman",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\": \"mmmmkkm\",\r\n    \"Industry\": \"Electronics\",\r\n    \"NumberOfEmployees\": \"200\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{sf}}/services/data/v60.0/sobjects/Account",
+					"host": [
+						"{{sf}}"
+					],
+					"path": [
+						"services",
+						"data",
+						"v60.0",
+						"sobjects",
+						"Account"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "record",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\": \"kkkmmmsk\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://vamritech38-dev-ed.my.salesforce.com/services/data/v60.0/sobjects/Account",
+					"protocol": "https",
+					"host": [
+						"vamritech38-dev-ed",
+						"my",
+						"salesforce",
+						"com"
+					],
+					"path": [
+						"services",
+						"data",
+						"v60.0",
+						"sobjects",
+						"Account"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "oauth2",
+		"oauth2": [
+			{
+				"key": "client_authentication",
+				"value": "body",
+				"type": "string"
+			},
+			{
+				"key": "tokenName",
+				"value": "demo to ps",
+				"type": "string"
+			},
+			{
+				"key": "accessTokenUrl",
+				"value": "https://login.salesforce.com/services/oauth2/token",
+				"type": "string"
+			},
+			{
+				"key": "password",
+				"value": "Priya@1481Ox5ueLvUPRIyoxpTbaomb4Av",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "durgamdp@gmail.com",
+				"type": "string"
+			},
+			{
+				"key": "clientSecret",
+				"value": "20A57F25C384B2EFA7F34135378E55D6A5DA1D40BFBA1C5C0B21335A77F8BC14",
+				"type": "string"
+			},
+			{
+				"key": "clientId",
+				"value": "3MVG9fe4g9fhX0E6ikPa9OqL_5qqqVBbFdjbdn6rP9Ur2xZE_1rHWl5TawJY9j_LlLlEGlWvrmo.vqQsS9zem",
+				"type": "string"
+			},
+			{
+				"key": "grant_type",
+				"value": "password_credentials",
+				"type": "string"
+			},
+			{
+				"key": "addTokenTo",
+				"value": "header",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
